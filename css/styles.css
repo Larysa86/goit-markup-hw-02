@@ -142,12 +142,9 @@ body {
 
 /* Секція Переваги */
 
-
-
 .benefits-title {
     color: var(--title-text-color);
 
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -164,7 +161,6 @@ body {
 .job-title {
     color: var(--title-text-color);
 
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -180,7 +176,6 @@ body {
 .team-title {
     color: var(--title-text-color);
 
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -260,7 +255,6 @@ body {
 .projects-title {
     color: var(--title-text-color);
     
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
