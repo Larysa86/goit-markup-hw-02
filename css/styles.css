@@ -1,14 +1,14 @@
 :root {
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --secondary-title-color: #ffffff;
-    --background-color: #ffffff;
-    --secondary-background-color: #f5f4fa;
-    --third-background-color: #2f303a;
-    --accent-color: #2196f3;
-    --footer-text-color: rgba(255, 255, 255, 0.6);
-    --accent-color-focus: #188ce8;
-}
+        --primary-text-color: #757575;
+        --title-text-color: #212121;
+        --secondary-title-color: #ffffff;
+        --background-color: #ffffff;
+        --secondary-background-color: #f5f4fa;
+        --third-background-color: #2f303a;
+        --accent-color: #2196f3;
+        --footer-text-color: rgba(255, 255, 255, 0.6);
+        --accent-color-focus: #188ce8;
+    }
 
 body {
     background-color: var(--background-color);
@@ -29,8 +29,8 @@ body {
 .benefits-list,
 .job-list,
 .team-list,
-.button-portfolio-list,
-.portfolio-list,
+.portfolio-button-list,
+.projects-list,
 .footer-list {
     list-style: none;
 }
@@ -142,6 +142,8 @@ body {
 
 /* Секція Переваги */
 
+
+
 .benefits-title {
     color: var(--title-text-color);
 
@@ -234,7 +236,7 @@ body {
 
 /* Секція Портфоліо */
 
-/* Портфоліо */
+/* Кнопки */
 
 .button-list:hover,
 .button-list:focus {
@@ -246,7 +248,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
+    letter-spacing: 0.03em;
+    
 }
 
 .button-list.active {
@@ -254,17 +257,19 @@ body {
     color: var(--secondary-title-color);
 }
 
-.portfolio-title {
+.projects-title {
     color: var(--title-text-color);
-
+    
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.portfolio-text {
+.projects-text {
     color: var(--primary-text-color);
 
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
 }
