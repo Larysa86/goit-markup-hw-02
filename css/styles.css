@@ -16,6 +16,7 @@ body {
 
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 
 }
 
@@ -62,7 +63,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
+   
 }
 
 .logo-accent {
@@ -121,9 +122,11 @@ body {
 }
 
 .hero-button {
+    font-family: inherit;
     color: var(--secondary-title-color);
     background-color: var(--accent-color);
     cursor: pointer;
+    
 
     font-weight: 700;
     font-size: 16px;
@@ -132,11 +135,14 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--accent-color-focus);
+  
 }
 
 
@@ -147,24 +153,21 @@ body {
 
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .benefits-text {
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 /* Секція Наша робота */
 
-.job-title {
+.title {
     color: var(--title-text-color);
 
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /* Секція Наша команда */
@@ -173,14 +176,7 @@ body {
     background-color: var(--secondary-background-color);
 }
 
-.team-title {
-    color: var(--title-text-color);
 
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 
 .team-member {
     color: var(--title-text-color);
@@ -188,13 +184,11 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 .team-position {
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 /* Підвал */
@@ -213,7 +207,6 @@ body {
     color: var(--secondary-title-color);
     font-style: normal;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .address-contact {
@@ -221,7 +214,6 @@ body {
 
     font-style: normal;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .address-contact:hover,
@@ -240,10 +232,13 @@ body {
 }
 
 .button-list {
+    padding: 6px 22px;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.03em;
+    border: none;
+    border-radius: 4px;
     
 }
 
@@ -265,5 +260,4 @@ body {
 
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
 }
